@@ -1,0 +1,454 @@
+ideas = {
+	
+	economic_politic = {
+	
+	law = yes
+	
+		nikov_plan_economy = {	
+		
+			cost = 250
+			removal_cost = -1
+			cancel_if_invalid = yes
+			level = 1
+
+			available = {
+				IF = {
+					has_government = national_socialism_ideology
+					has_government = ecofascism_ideology
+					has_government = social_democracy_ideology
+					has_government = left_wing_nationalism_ideology
+					has_government = neoмarxism_ideology
+					has_government = classical_мarxism_ideology
+					has_government = authoritarian_socialism_ideology
+					has_government = authoritarian_communism_ideology
+					has_government = anarchism_ideology
+				}
+			}	
+
+			picture = nikov_plan_economy_icon
+			modifier = {
+			
+			}
+			ai_will_do = {
+			factor = 1
+			}
+			
+		}
+		
+		nikov_gov_cap_economy = {	
+		
+			cost = 250
+			removal_cost = -1
+			cancel_if_invalid = yes
+			level = 1
+
+			available = {
+				NOT = {
+					has_government = market_liberalism_ideology
+					has_government = libertarianism_ideology
+					has_government = neoliberalism_ideology
+					has_government = conservatism
+					has_government = anarchism_ideology
+				}
+			}	
+
+			picture = nikov_gov_cap_economy_icon
+			modifier = {
+			
+			}
+			ai_will_do = {
+			factor = 1
+			}
+			
+		}
+		
+		nikov_gov_protect_economy = {	
+		
+			cost = 250
+			removal_cost = -1
+			cancel_if_invalid = yes
+			level = 1
+
+			available = {
+				NOT = {
+					has_government = market_liberalism_ideology
+					has_government = libertarianism_ideology
+					has_government = authoritarian_communism
+					has_government = classical_мarxism_ideology
+					has_government = anarchism_ideology
+				}
+			}	
+
+			picture = nikov_gov_protect_economy_icon
+			modifier = {
+			
+			}
+			ai_will_do = {
+			factor = 1
+			}
+			
+		}
+		
+		nikov_capitalism_economy = {	
+		
+			cost = 250
+			removal_cost = -1
+			cancel_if_invalid = yes
+			level = 1
+
+			available = {
+				IF = {
+					has_government = market_liberalism_ideology
+					has_government = libertarianism_ideology
+					has_government = anarchism_ideology
+					has_government = conservatism
+					has_government = neoliberalism_ideology
+					has_government = national_conservatism_ideology
+					has_government = national_democracy_ideology
+					has_government = christian_democracy_ideology
+					has_government = nationalism_ideology
+					has_government = monarchism_ideology
+				}
+			}	
+
+			picture = nikov_gov_protect_economy_icon
+			modifier = {
+			
+			}
+			ai_will_do = {
+			factor = 1
+			}
+			
+		}
+		
+		nikov_traditionalism_economy = {	
+		
+			cost = 250
+			removal_cost = -1
+			cancel_if_invalid = yes
+			level = 1
+
+			available = {
+				IF = {
+					has_government = anarchism_ideology
+					has_government = fundamentalism_ideology
+					has_government = ecofascism_ideology
+					has_government = traditionalism_ideology
+				}
+			}	
+
+			picture = nikov_traditionalism_economy_icon
+			modifier = {
+			
+			}
+			ai_will_do = {
+			factor = 1
+			}
+			
+		}
+	
+	}
+	
+	religious_politic = {
+	
+	law = yes
+	
+		nikov_dead_gov = {	
+		
+			cost = 250
+			removal_cost = -1
+			cancel_if_invalid = yes
+			level = 1
+
+			available = {
+				NOT = {
+					has_government = conservatism
+					has_government = national_conservatism_ideology
+					has_government = national_democracy_ideology
+					has_government = monarchism_ideology
+					has_government = traditionalism_ideology
+					has_government = christian_democracy_ideology
+					has_government = fundamentalism_ideology
+					has_government = corporatism_ideology
+					has_government = market_liberalism_ideology
+					has_government = neoliberalism_ideology
+					has_government = libertarianism_ideology
+				}
+			}	
+
+			picture = nikov_dead_gov_icon
+			modifier = {
+			
+			}
+			ai_will_do = {
+			factor = 1
+			}
+			
+		}
+	
+		nikov_ateist_gov = {	
+		
+			cost = 250
+			removal_cost = -1
+			cancel_if_invalid = yes
+			level = 1
+
+			available = {
+				NOT = {
+					has_government = conservatism
+					has_government = national_conservatism_ideology
+					has_government = national_democracy_ideology
+					has_government = monarchism_ideology
+					has_government = traditionalism_ideology
+					has_government = christian_democracy_ideology
+					has_government = fundamentalism_ideology
+					has_government = corporatism_ideology
+				}
+			}	
+
+			picture = nikov_ateist_gov_icon
+			modifier = {
+			
+			}
+			ai_will_do = {
+			factor = 1
+			}
+			
+		}
+	
+		nikov_secular_gov = {	
+		
+			cost = 250
+			removal_cost = -1
+			cancel_if_invalid = yes
+			level = 1
+
+			available = {
+				NOT = {
+					has_government = traditionalism_ideology
+					has_government = christian_democracy_ideology
+					has_government = fundamentalism_ideology
+					has_government = corporatism_ideology
+				}
+			}	
+
+			picture = nikov_secular_gov_icon
+			modifier = {
+			
+			}
+			ai_will_do = {
+			factor = 1
+			}
+			
+		}
+		
+		nikov_religious_gov = {	
+		
+			cost = 250
+			removal_cost = -1
+			cancel_if_invalid = yes
+			level = 1
+
+			available = {
+				NOT = {
+					has_government = anarchism_ideology
+					has_government = authoritarian_communism_ideology
+					has_government = neoмarxism_ideology
+					has_government = classical_мarxism_ideology
+				}
+			}	
+
+			picture = nikov_religious_gov_icon
+			modifier = {
+			
+			}
+			ai_will_do = {
+			factor = 1
+			}
+			
+		}
+		
+		nikov_vojd_gov = {	
+		
+			cost = 250
+			removal_cost = -1
+			cancel_if_invalid = yes
+			level = 1
+
+			available = {
+				NOT = {
+					has_government = conservatism
+					has_government = social_democracy_ideology
+					has_government = market_liberalism_ideology
+					has_government = anarchism_ideology
+					has_government = neoliberalism_ideology
+					has_government = christian_democracy_ideology
+					has_government = libertarianism_ideology
+				}
+			}	
+
+			picture = nikov_religious_gov_icon
+			modifier = {
+			
+			}
+			ai_will_do = {
+			factor = 1
+			}
+			
+		}
+	
+	
+	
+	}
+	
+	social_politic = {
+	
+	law = yes
+	
+		nikov_social_gov = {	
+		
+				cost = 250
+				removal_cost = -1
+				cancel_if_invalid = yes
+				level = 1
+
+				available = {
+					NOT = {
+						has_government = anarchism_ideology
+						has_government = market_liberalism_ideology
+						has_government = neoliberalism_ideology
+						has_government = libertarianism_ideology
+						has_government = monarchism_ideology
+						has_government = fundamentalism_ideology
+						has_government = conservatism
+						has_idea = nikov_capitalism_economy
+					}
+				}	
+
+				picture = nikov_social_gov_icon
+				modifier = {
+			
+				}
+				ai_will_do = {
+				factor = 1
+				}
+			
+		}
+		
+		nikov_big_soc_gov = {
+		
+		cost = 250
+				removal_cost = -1
+				cancel_if_invalid = yes
+				level = 1
+
+				available = {
+					NOT = {
+						has_government = anarchism_ideology
+						has_government = market_liberalism_ideology
+						has_government = neoliberalism_ideology
+						has_government = libertarianism_ideology
+						has_government = fundamentalism_ideology
+						has_idea = nikov_capitalism_economy
+					}
+				}	
+
+				picture = nikov_big_soc_gov_icon
+				modifier = {
+			
+				}
+				ai_will_do = {
+				factor = 1
+				}
+		
+		}
+		
+		nikov_medium_soc_gov = {
+		
+		cost = 250
+				removal_cost = -1
+				cancel_if_invalid = yes
+				level = 1
+
+				available = {
+					NOT = {
+						has_government = anarchism_ideology
+						has_government = market_liberalism_ideology
+						has_government = neoliberalism_ideology
+						has_government = libertarianism_ideology
+						has_government = authoritarian_communism_ideology
+						has_idea = nikov_capitalism_economy
+					}
+				}	
+
+				picture = nikov_medium_soc_gov_icon
+				modifier = {
+			
+				}
+				ai_will_do = {
+				factor = 1
+				}
+		
+		}
+		
+		nikov_low_soc_gov = {
+		
+		cost = 250
+				removal_cost = -1
+				cancel_if_invalid = yes
+				level = 1
+
+				available = {
+					NOT = {
+						has_government = anarchism_ideology
+						has_government = market_liberalism_ideology
+						has_government = neoliberalism_ideology
+						has_government = libertarianism_ideology
+						has_government = authoritarian_communism_ideology
+						has_government = authoritarian_socialism_ideology
+						has_government = classical_мarxism_ideology	
+						has_government = neoмarxism_ideology
+						has_idea = nikov_capitalism_economy
+					}
+				}	
+
+				picture = nikov_low_soc_gov_icon
+				modifier = {
+			
+				}
+				ai_will_do = {
+				factor = 1
+				}
+		
+		}
+		
+		nikov_gooddeal_gov = {
+		
+		cost = 250
+				removal_cost = -1
+				cancel_if_invalid = yes
+				level = 1
+
+				available = {
+					NOT = {
+						has_government = authoritarian_communism_ideology
+						has_government = authoritarian_socialism_ideology
+						has_government = neoмarxism_ideology
+						has_government = classical_мarxism_ideology	
+						has_government = national_socialism_ideology
+						has_government = ultrapatriotism_ideology
+						has_idea = nikov_plan_economy
+					}
+				}	
+
+				picture = nikov_gooddeal_gov_icon
+				modifier = {
+			
+				}
+				ai_will_do = {
+				factor = 1
+				}
+		
+		}
+
+}
