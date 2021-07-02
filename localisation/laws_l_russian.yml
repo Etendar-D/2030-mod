@@ -1,0 +1,20 @@
+﻿l_russian:
+ #Модовые
+ idea_group_economic_politic:0 "Экономический строй"
+ idea_group_religious_politic:0 "Религиозная политика"
+ idea_group_social_politic:0 "Социальная политика"
+ #Идеи
+ nikov_plan_economy:0 "Плановая экономика"
+ nikov_gov_cap_economy:0 "Государственный капитализм"
+ nikov_gov_protect_economy:0 "Государственное вмешательство"
+ nikov_capitalism_economy:0 "Laisezz-Faire"
+ nikov_dead_gov:0 "Религия запрещена"
+ nikov_ateist_gov:0 "Атеистическое государство"
+ nikov_secular_gov:0 "Светское государство"
+ nikov_religious_gov:0 "Религиозное государство/Официальная религия"
+ nikov_vojd_gov:0 "Вождество
+ nikov_social_gov:0 "Социальное государство"
+ nikov_big_soc_gov:0 "Большие пособии и льготы"
+ nikov_medium_soc_gov:0 "Средние пособии и льготы"
+ nikov_low_soc_gov:0 "Малые пособии и льготы"
+ nikov_gooddeal_gov:0 "Частная благотворительность"
